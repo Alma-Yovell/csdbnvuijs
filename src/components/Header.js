@@ -1,7 +1,7 @@
 import React from 'react';
 import '../componentsCss/Header.css';
 
-function Header({ onMenuClick }) {
+function Header() {
     return (
       <header className="header">
 
@@ -9,14 +9,14 @@ function Header({ onMenuClick }) {
           src={process.env.PUBLIC_URL + '/collegeLogoText.png'}
           className="collegeLogoText"
           alt="logo"
-          onClick={() => window.location.reload()} // Redirects to home page
+        //   onClick={() => window.location.reload()} // Redirects to home page
         />
 
         <img
           src={process.env.PUBLIC_URL + '/navbar.png'}
           className="navbar"
           alt="navbar"
-          onClick={onMenuClick}
+        //   onClick={onMenuClick}
         />
 
         <img
@@ -24,6 +24,7 @@ function Header({ onMenuClick }) {
           alt="Decorative"
           className="orangeTriangle"
         />
+       
        
       </header>
     )

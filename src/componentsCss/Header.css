@@ -1,28 +1,29 @@
 .header {
     position: fixed; /* Fixed position at the top */
     top: 0;
-    width: 100%;
+    width: 100vw;
+    height: 25vmin;
     z-index: 1000; /* Ensure the header is above other content */
     background-color: white; /* Add background color to ensure text is readable */
   }
   
   .collegeLogoText {
     height: 16vmin; /* Adjust size as needed */
-    cursor: pointer; /* Change cursor to pointer */
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 2vh;
+    right: 2vw;
   }
   
   .navbar {
     position: absolute;
-    top: 10px;
-    left: 10px; /* Positioning the icon to the left */
-    cursor: pointer; /* Change cursor to pointer */
+    top: 4vh;
+    left: 3vw; 
+    width: 10vw;
+    height: auto;
   }
   
   .orangeTriangle {
-    position: fixed; /* Fixed positioning to keep it at the top-left corner */
+    position: absolute;
     top: 0;
     left: 0;
     width: 42vw; /* Adjust the width as needed */
